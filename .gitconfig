@@ -6,3 +6,5 @@
 [user]
 	name = Bradly Goodner
 	email = 46427195+bradlygoodner@users.noreply.github.com
+[core]
+	editor = code --wait
