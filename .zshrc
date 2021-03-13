@@ -105,3 +105,9 @@ alias zshconfig="~/.zshrc"
 alias ohmyzsh="~/.oh-my-zsh"
 alias dockimgs="docker images"
 PATH=$(pyenv root)/shims:$PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/bradlygoodner/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bradlygoodner/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/bradlygoodner/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bradlygoodner/google-cloud-sdk/completion.zsh.inc'; fi
